@@ -23,6 +23,8 @@ A Python-based voice assistant that listens for a wake word and controls your br
 
 3. Run the assistant
    python assistant.py
+   
+4. pip install speechrecognition pyttsx3 selenium spotipy
 
 ## Usage
 Say the wake word **"assistant"** followed by a command:
@@ -34,6 +36,13 @@ Say the wake word **"assistant"** followed by a command:
 | `assistant open google` | Opens Google |
 | `assistant what time is it` | Tells the time |
 | `assistant quit` | Shuts down |
+| `assistant play Blinding Lights` | Plays song on Spotify |
+| `assistant pause` | Pauses Spotify |
+| `assistant resume` | Resumes playback |
+| `assistant next song` | Skips to next track |
+| `assistant previous song` | Goes back |
+| `assistant what song is this` | Tells current song |
+| `assistant set volume 50` | Sets volume to 50% |
 
 ## Author
 Edwin Mayor
